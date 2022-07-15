@@ -1,0 +1,26 @@
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.important{
+    color: red;
+    font-weight: bold;
+        
+}
+
+.image{
+    text-align: center;
+
+}
+
+.artpeces{
+    /* everything must be centered, under the images there is a text */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}

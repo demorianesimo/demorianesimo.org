@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    # nginx with utf-8 encoding on port 6900, copy . to /var/www/html
+ 
+    build: .  
+    ports:
+      - "6900:80"
+    volumes:
+      - .:/var/www/html
+    
